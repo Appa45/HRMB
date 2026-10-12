@@ -109,12 +109,36 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .board-cards { display: grid; gap: 8px; }
 .contact-card { display: block; width: 100%; text-align: left; padding: 10px; border: 1px solid #e9ebf1; border-radius: 8px; background: #fff; box-shadow: 0 1px 2px #1e2a3a06; color: inherit; }
 .contact-card:hover { border-color: #c9d6ed; box-shadow: 0 3px 9px #253a5d0b; transform: translateY(-1px); }
-.card-person { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.card-title { display: grid; gap: 4px; min-width: 0; }
-.card-title strong { color: #2b303b; font-size: 11px; font-weight: 600; }
-.card-title span { color: #7a8291; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card-labels { margin: 9px 0 7px 41px; }
-.card-notes { margin: 0 0 0 41px; color: #737b8a; font-size: 10px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-person {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.card-title {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  text-align: left;
+}
+
+.card-title strong {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.card-title span {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
 .add-card { width: 100%; padding: 10px 4px 3px; }
 .page-footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; padding-top: 10px; border-top: 1px solid #f0f1f4; color: #9aa1ad; font-size: 10px; }
 .footer-dot { margin: 0 5px; }
