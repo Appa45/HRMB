@@ -1,4 +1,4 @@
-import { ArrowDownUp, ChevronDown, Filter, LayoutGrid, List, MoreHorizontal, Plus, Search, SlidersHorizontal } from "lucide-react";
+import { ArrowDownUp, ChevronDown, Filter, LayoutGrid, List, MoreHorizontal, Plus, Search } from "lucide-react";
 import type { DatabaseView } from "../types/contact";
 
 interface Props {
