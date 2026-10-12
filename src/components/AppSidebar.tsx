@@ -1,4 +1,4 @@
-import { CheckSquare, ContactRound, Inbox, Plus, Search, Settings, StickyNote } from "lucide-react";
+import { CheckSquare, ContactRound, Inbox,Settings, StickyNote } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const navClass = ({ isActive }: { isActive: boolean }) => `sidebar-link${isActive ? " nav-active" : ""}`;
